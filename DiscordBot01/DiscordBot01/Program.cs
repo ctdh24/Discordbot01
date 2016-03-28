@@ -11,15 +11,7 @@ namespace DiscordBot01
     {
         static void Main(string[] args)
         {
-            var bot = new DiscordClient();
-            bot.MessageReceived += Bot_MessageReceived;
-            bot.Connect("discord.bot.tutorial@gmail.com","september24");
-            bot.Wait();
-        }
-
-        private static void Bot_MessageReceived(object sender, MessageEventArgs e)
-        {
-            Console.WriteLine("{0} said: {1}", e.User.Name, e.Message.Text);
+            DankBot myBot = new DankBot();
         }
     }
 }
