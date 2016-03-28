@@ -23,23 +23,25 @@ namespace DiscordBot01
         {
             Console.WriteLine("{0} in {1} said: {2}", e.User.Name, e.Channel ,e.Message.Text);
             if (e.Message.IsAuthor) return;
-            if (e.Message.Text == "1d6")
+            if (e.Message.Text.Contains("1d"))
             {
                 Random diceroll = new Random();
-                int diceresult = diceroll.Next(1, 7);
+                int temp = e.Message.Text.IndexOf("d");
+                int dice;
+                try {
+                    dice = Int32.Parse(e.Message.Text.Substring(temp + 1));
+                }
+                catch {
+                    e.Channel.SendMessage(e.User.Mention + ": Incorrect format");
+                    return;
+                }
+                int diceresult = diceroll.Next(1, dice);
                 e.Channel.SendMessage(e.User.Mention + " rolled a " + diceresult);
             }
-            if (e.Message.Text == "1d20")
+            //test help list
+            if (e.Message.Text == "#help")
             {
-                Random diceroll = new Random();
-                int diceresult = diceroll.Next(1, 21);
-                e.Channel.SendMessage(e.User.Mention + " rolled a " + diceresult);
-            }
-            if (e.Message.Text == "1d100")
-            {
-                Random diceroll = new Random();
-                int diceresult = diceroll.Next(1, 101);
-                e.Channel.SendMessage(e.User.Mention + " rolled a " + diceresult);
+                e.Channel.SendMessage(e.User.Mention + " type 1d followed by a number. Example: 1d20");
             }
 
         }
