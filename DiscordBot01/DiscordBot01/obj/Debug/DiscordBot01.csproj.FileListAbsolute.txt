@@ -18,3 +18,5 @@ C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\bi
 C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\obj\Debug\DiscordBot01.csprojResolveAssemblyReference.cache
 C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\obj\Debug\DiscordBot01.exe
 C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\obj\Debug\DiscordBot01.pdb
+C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\bin\Debug\images\annoyed_stare.png
+C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\bin\Debug\images\cute.png

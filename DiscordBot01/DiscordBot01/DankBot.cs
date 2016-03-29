@@ -23,7 +23,8 @@ namespace DiscordBot01
         {
             Console.WriteLine("{0} in {1} said: {2}", e.User.Name, e.Channel ,e.Message.Text);
             if (e.Message.IsAuthor) return;
-            if (e.Message.Text.Contains("1d"))
+            //dice rolls
+            if (e.Message.Text.Contains("1d") && e.Channel.Name == "dice-check")
             {
                 Random diceroll = new Random();
                 int temp = e.Message.Text.IndexOf("d");
@@ -43,7 +44,21 @@ namespace DiscordBot01
             {
                 e.Channel.SendMessage(e.User.Mention + " type 1d followed by a number. Example: 1d20");
             }
+            if(e.Message.Text == "#cute")
+            {
+                e.Channel.SendFile("images/cute.png");
+            }
+            if (e.Message.Text == "#really?")
+            {
+                e.Channel.SendFile("images/annoyed_stare.png");
+            }
+            if (e.Message.Text == "#doyouunderstand")
+            {
+                e.Channel.SendMessage("https://www.youtube.com/watch?v=hWKB1Zxg84s");
+            }
+
 
         }
+
     }
 }
