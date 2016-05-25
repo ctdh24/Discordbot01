@@ -9,7 +9,6 @@ C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\bi
 C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\bin\Debug\Nito.AsyncEx.Enlightenment.dll
 C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\bin\Debug\RestSharp.dll
 C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\bin\Debug\WebSocket4Net.dll
-C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\bin\Debug\Discord.Net.xml
 C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\bin\Debug\Nito.AsyncEx.xml
 C:\Users\Calvin Huynh\Documents\GitHub\Discordbot01\DiscordBot01\DiscordBot01\bin\Debug\Nito.AsyncEx.Concurrent.xml
